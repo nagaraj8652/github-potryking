@@ -1,0 +1,65 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+
+.text-center{
+    text-align: center;
+}
+
+ion-button {
+    --border-radius: 200px/200px !important;
+      --box-shadow:none;
+}
+.background1 {
+    --background: rgb(95,213,141);
+    --background: linear-gradient(90deg, rgba(95,213,141,1) 0%, rgba(55,158,121,1) 49%, rgba(18,94,103,1) 100%);
+    color: white;
+}
+
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  color: white;
+  background-color: #4CAF50;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+// ion-content , ion-item , .toolbar-background{
+//     --background: #f5f7fa;
+//     background-color: #f5f7fa;
+//     --ion-color-base:#f5f7fa;
+// }
+
+.btn-primary {
+    color: #212529;
+    background-color: #c7c7c7;
+    border-color: #c7c7c7;
+}
+

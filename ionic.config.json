@@ -1,0 +1,7 @@
+{
+  "name": "POLTRYKING",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
